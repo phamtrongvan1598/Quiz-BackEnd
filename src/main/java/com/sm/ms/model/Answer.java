@@ -21,6 +21,7 @@ public class Answer {
 
     @JsonBackReference
     @ManyToOne
+
     @JoinColumn(name = "question")
     private Question question;
 

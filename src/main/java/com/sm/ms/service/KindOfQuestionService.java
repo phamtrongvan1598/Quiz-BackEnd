@@ -1,8 +1,8 @@
 package com.sm.ms.service;
 
-import tri.lo.model.KindOfQuestion;
+import com.sm.ms.model.KindOfQuestion;
 
-import java.util.List;
+;import java.util.List;
 import java.util.Optional;
 
 public interface KindOfQuestionService {

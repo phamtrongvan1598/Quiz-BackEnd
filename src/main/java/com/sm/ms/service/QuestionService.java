@@ -1,6 +1,6 @@
 package com.sm.ms.service;
 
-import tri.lo.model.Question;
+import com.sm.ms.model.Question;
 
 import java.util.List;
 import java.util.Optional;

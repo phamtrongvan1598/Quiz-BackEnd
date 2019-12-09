@@ -1,4 +1,4 @@
-package tri.lo.model;
+package com.sm.ms.model;
 
 import javax.persistence.*;
 import java.util.List;
@@ -17,7 +17,7 @@ public class Question {
     private List<Answer> answers;
 
     @ManyToOne
-    @JoinColumn(name = "kindOfQuestion_id")
+    @JoinColumn(name = "answer")
     private KindOfQuestion kindOfQuestion;
 
     public Question() {

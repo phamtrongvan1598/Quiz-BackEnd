@@ -1,15 +1,15 @@
-package tri.lo.controller;
+package com.sm.ms.controller;
 
+import com.sm.ms.model.Answer;
+import com.sm.ms.service.AnswerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-import tri.lo.model.Answer;
-import tri.lo.service.AnswerService;
-
 import java.util.List;
+
 
 @RestController
 @RequestMapping("/api/auth/answers")

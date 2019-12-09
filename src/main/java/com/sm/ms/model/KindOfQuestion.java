@@ -1,4 +1,4 @@
-package tri.lo.model;
+package com.sm.ms.model;
 
 import javax.persistence.*;
 import java.util.List;
@@ -14,6 +14,19 @@ public class KindOfQuestion {
 
     @OneToMany(targetEntity = Question.class)
     private List<Question> questions;
+
+//    @ManyToOne
+//    @JoinColumn(name = "user_id")
+//    private User writer;
+//
+//    public User getWriter() {
+//        return writer;
+//    }
+//
+//    public void setWriter(User writer) {
+//        this.writer = writer;
+//    }
+//
 
     public KindOfQuestion() {
     }

@@ -1,7 +1,8 @@
-package tri.lo.repository;
+package com.sm.ms.repository;
 
+
+import com.sm.ms.model.Answer;
 import org.springframework.data.jpa.repository.JpaRepository;
-import tri.lo.model.Answer;
 
 public interface AnswerRepository extends JpaRepository<Answer, Long> {
 
